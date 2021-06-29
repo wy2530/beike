@@ -61,22 +61,4 @@ class WebTestSpider(scrapy.Spider):
         # print(base_info_name)
         dic = dict(zip(base_info_name, base_info))
         print(dic)
-        # yield web_Item({
-        #     "title":title,
-        #     "info":dic
-        # })
 
-    # 3. 一页显示30个, 最多显示100页， 如果大于100页,缩小区间
-    # # 如果是0判断总数是否有76542万套,如果够停止，不够就继续
-    # if (total_Numer == 0):
-    #     #     判断是不是
-    #     pass
-    # # 如果是3000以上，缩小范围
-    # if (total_Numer < 3000):
-    #     start
-    # else:
-    #     pass
-
-    # else:
-
-    # def deal_url(self,response,):
